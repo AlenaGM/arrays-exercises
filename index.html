@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/matrix.png" type="img/png">
+    <title>Задания с массивами</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Задания с массивами</h1>
+        <div>
+            <h2>1</h2>
+            <p>Напишите функцию sumInput(), которая:</p>
+            <p>- Просит пользователя ввести значения, используя `prompt` и сохраняет их в массив</p>
+            <p>- Заканчивает запрашивать значения, когда пользователь введёт не числовое значение, пустую строку или нажмёт «Отмена»</p>
+            <p>- Выводит получившийся массив в отсортированном по возрастанию виде</p>
+            <p>- Подсчитывает и возвращает сумму элементов массива</p></p>
+            <div class="button button_color-red" onclick="SumInput()">sumInput</div>
+        </div>
+
+        <div>
+            <h2>2</h2>
+            <p>Дан массив ['js', 'css', 'html']. Выведите на экран первый элемент.</p>
+            <div class="button button_color-green"  onclick="firstElem()">Первый элемент</div>
+        </div>
+        <div>
+            <h2>3</h2>
+            <p>Отфильтруйте массив [0, 1, false, 2, undefined, '', 3, null] от нежелательных значений, таких как false, undefined, пустые строки, ноль, null с помощью метода filter.  Ожидаемый результат: [1, 2, 3].</p>
+            <div class="button button_color-green"  onclick="showMess()">Уборка</div>
+        </div>
+        <div>
+            <h2>4</h2>
+            <p>Дан массив [[1,2], [1,2,3], [1,2,3,4]]. Найдите индекс массива, длина которого > 3.</p>
+            <div class="button button_color-green"  onclick="showIndex()">Индекс</div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
+
+
