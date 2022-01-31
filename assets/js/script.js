@@ -52,12 +52,13 @@ function showFiltered() {
 };
 
 //Найти индекс массива, длина которого > 3
+let multinumbers = [[1,2], [1,2,3], [1,2,3,4]];
 
 function showIndex(){
-  let multinumbers = [[1,2], [1,2,3], [1,2,3,4]];
 
-  if (multinumbers[0].length > 3) {alert('Индекс массива [0]');
-  } else if (multinumbers[1].length > 3) {alert('Индекс массива [1]')
-    } else if (multinumbers[2].length > 3) {alert('Индекс массива [2]')
-      } else {alert('Какая-то ошибка: все массивы слишком короткие!')};
+for (let i = 0; i < multinumbers.length; i++) {
+    if (multinumbers[i].length > 3)
+      alert('Индекс массива: ' + i);
+  }
 }
+
