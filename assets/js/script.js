@@ -1,49 +1,57 @@
+//Спросить значения, рассортировать по возрастанию, суммировать
+let numbers = [];
+
 function sumInput(){
-  let numbers = [];
 
-  while (true) {
-
+    while (true){
     let nbr = prompt(`Введите число`);
 
     if (nbr === "" || nbr === null || !isFinite(nbr)) break;
 
     numbers.push(+nbr);
-}
+  }
 
-numbers.sort((a, b) => a - b);
-alert(numbers);
+  numbers.sort((a, b) => a - b);
+  console.log(numbers);
+  alert ('Массив по возрастанию: ' + numbers);
 
-let sum = 0;
-for (let nbr of numbers) {
-    sum += nbr;
-}
-return sum;
+  let sumNumbers = 0;
 
+  for (let nbr of numbers) {
+    sumNumbers += nbr;
+  }
 
+  console.log(sumNumbers);
+  alert ('Сумма значений массива = ' + sumNumbers);
 };
 
-alert(sumInput());
-
+//Вывести на экран 1-й элемент массива
+let files = ["js", "css", "html"];
 
 function firstElem(){
-  let files = ["js", "css", "html"];
-  alert(files[0]);
+
+  console.log(files[0]);
+  alert('Первый элемент массива: ' + files[0]);
 };
+
 
 let mess = [0, 1, false, 2, undefined, '', 3, null];
 
+//Убрать лишнее из массива
 function deleteMess(value) {
   return value != false && value != '' && value != undefined && value != null;
-}
+};
 
 let filtered = [0, 1, false, 2, undefined, '', 3, null].filter(deleteMess);
 
 console.log(filtered);
 
-function showMess(){
-  alert(filtered);
-}
+function showFiltered() {
 
+  alert('Все лишнее убрали, вот: ' + filtered);
+};
+
+//Найти индекс массива, длина которого > 3
 
 function showIndex(){
   let multinumbers = [[1,2], [1,2,3], [1,2,3,4]];
