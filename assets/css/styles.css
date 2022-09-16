@@ -1,73 +1,77 @@
 html,
 body {
-    height: 100%;
-    line-height: 140%;
-    font-size: 18px;
-    background-color: #FFFFFF;
-    font-family: 'Didact Gothic', sans-serif;
-    text-align: center;
+  height: 100%;
+  line-height: 140%;
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
 }
 
 .wrapper {
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    margin: 40px 320px 40px 320px;
-    text-align: left;
-    justify-items: center;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 320px 40px 320px;
+  text-align: left;
+  justify-items: center;
 }
 
 h1 {
-    font-size: 32px;
-    color: #87B237;
-    letter-spacing: 0.1em ;
-    line-height: 180%;
-    margin: 0px;
-    padding: 0px 0px 18px 0px;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 32px;
+  color: #87b237;
+  letter-spacing: 0.1em;
+  line-height: 180%;
+  margin: 0px;
+  padding: 0px 0px 18px 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
-    color: #a87b09;
-    font-size: 18px;
-    text-align: center;
-    padding: 32px 0px 10px 0px;
+  color: #a87b09;
+  font-size: 18px;
+  text-align: center;
+  padding: 32px 0px 10px 0px;
 }
 
 p {
-    text-align: left;
+  text-align: left;
 }
 
-.button{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    color:#FFFFFF;
-    text-transform: uppercase;
-    border-radius: 35px;
-    padding: 13px 30px;
-    min-width: 60px;
-    cursor: pointer;
-    transition: background-color 0.5s ease 0s;
-    box-shadow: 0 2px 0 #23262f3b;
-    margin-bottom: 30px;
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 35px;
+  padding: 13px 30px;
+  min-width: 60px;
+  cursor: pointer;
+  transition: background-color 0.5s ease 0s;
+  box-shadow: 0 2px 0 #23262f3b;
+  margin-bottom: 30px;
 }
 
 .button_color-green {
-    background-color: #87B237;
+  background-color: #87b237;
 }
 
 .button_color-red {
-    background-color: #F04930;
+  background-color: #f04930;
 }
 
 .button_color-green:hover {
-    background-color: #c2ec74;
+  background-color: #c2ec74;
 }
 
 .button_color-red:hover {
-    background-color: #ff8c8c;
+  background-color: #ff8c8c;
+}
+
+span {
+  font-style: italic;
 }
