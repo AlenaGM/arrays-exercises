@@ -1,6 +1,9 @@
 # Arrays-Exercises
 Weekly exercises. JavaScript array methods.
 
+## Tasks & result
+<img width="35%" alt="screen capture" src="../main/assets/img/captureweb.jpeg">
+
 ## Demo
 [Arrays-Exercises]
 
