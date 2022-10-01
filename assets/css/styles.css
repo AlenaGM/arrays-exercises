@@ -13,9 +13,9 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  margin: 40px 320px 40px 320px;
   text-align: left;
   justify-items: center;
+  padding: 10% 15%;
 }
 
 h1 {
