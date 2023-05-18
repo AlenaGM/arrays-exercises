@@ -1,5 +1,5 @@
 # Arrays-Exercises
-Weekly exercises on JavaScript array methods.
+Weekly exercises for [ITGirlSchool]: JavaScript array methods.
 
 ## Tasks & results
 <img width="45%" alt="screen capture" src="../main/assets/img/captureweb.jpeg">
