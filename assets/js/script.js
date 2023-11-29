@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 //Ask numbers, arrange in ascending order, sum numbers
 let numbers = [];
 
 function sumInput() {
+  // eslint-disable-next-line no-constant-condition
   while (true) {
     let nbr = prompt(`Enter a number`);
 
@@ -11,7 +13,6 @@ function sumInput() {
   }
 
   numbers.sort((a, b) => a - b);
-  console.log(numbers);
   alert("Array in ascending order: " + numbers);
 
   let sumNumbers = 0;
@@ -27,7 +28,6 @@ function sumInput() {
 let files = ["js", "css", "html"];
 
 function firstElem() {
-  console.log(files[0]);
   alert("The first element of array: " + files[0]);
 }
 
